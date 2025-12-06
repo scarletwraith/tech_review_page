@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tech Insights</title>
+  </head>
+
+  <body>
+    <header>
+      <img src="images/logo.png" alt="logo image" width="256" height="256">
+
+      <h1>Tech Insights</h1>
+
+      <p>Your Source for Technology News and Reviews</p>
+
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+
+          <li><a href="comparison.html">Product Comparison</a></li>
+
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h2>Contact Us</h2>
+
+      <form action="submit-contact.php" method="post">
+        <fieldset>
+          <legend>Your Information</legend>
+
+          <label for="fullname">Full Name:</label>
+          <input type="text" id="fullname" name="fullname" required><br><br>
+
+          <label for="email">Email Address:</label>
+          <input type="email" id="email" name="email" required><br><br>
+
+          <label for="phone">Phone Number:</label>
+          <input type="tel" id="phone" name="phone" placeholder="e.g. 123-555-4567"><br><br>
+        </fieldset>
+
+        <fieldset>
+          <legend>Your Inquiry</legend>
+
+          <label for="subject">Subject:</label>
+          <select id="subject" name="subject" required>
+            <option value="">-- Please choose an option --</option>
+
+            <option value="general">General Question</option>
+
+            <option value="support">Technical Support</option>
+
+            <option value="review">Product Review Request</option>
+
+            <option value="partnership">Partnership Opportunity</option>
+          </select><br><br>
+
+          <label for="message">Message:</label><br>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </fieldset>
+
+        <fieldset>
+          <legend>Communication Preferences</legend>
+
+          <label for="newsletter">
+            <input type="checkbox" id="newsletter" name="newsletter">
+            Subscribe to our newsletter
+          </label><br>
+
+          <label for="terms">
+            <input type="checkbox" id="terms" name="terms" required>
+            I agree to the Terms and Conditions
+          </label>
+        </fieldset>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Tech Insights. All rights reserved.</p>
+
+      <nav>
+        <ul>
+          <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+
+          <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+
+          <li><a href="https://x.com" target="_blank">X</a></li>
+        </ul>
+      </nav>
+
+      <p><a href="info@techinsights.com">Email contact link</a></p>
+    </footer>
+  </body>
+</html>
