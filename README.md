@@ -1,2 +1,2 @@
-# small_media_project
-A small project for sharing different types of media 
+# tech_review_page
+A small phone review and tech review page. 
